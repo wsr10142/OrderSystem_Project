@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+header {
+
+    font-size: 1rem;
+    background-color: #99c7a4;
+    //background-color: #FFEE99;#A8D8B9
+    //color: #886600;
+    color: #fff;
+    padding: 10px;
+}
+header a {
+
+    font-size: 2.5rem;
+    //background-color: #FFEE99;	
+    //color: #886600;
+    color:#516E41;	
+    padding: 5px;	
+    text-align: center;  
+    font-family: 'Potta One', cursive;
+    vertical-align:middle; 
+    text-decoration: none;
+}
+header a.login{
+    font-size: 1rem;
+    float:right;
+    color: #516E41;
+    padding: 5px;
+    text-align: center;  
+    font-family: 'Potta One', cursive;
+    vertical-align:middle; 
+    text-decoration: none;
+}
+header a.login:hover{
+    font-size: 1rem;
+    background-color:#516E41;
+    color: #fff;	
+    border-radius: 10px;
+    padding: 5px;	
+    text-align: center;  
+    font-family: 'Potta One', cursive;
+    vertical-align:middle; 
+    text-decoration: none;
+    height: auto;
+    transition: .9s;
+}
+.box {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color:#91B493;
+
+}
+
+.box a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #516E41;
+    /*padding: 0 50px;*/
+
+    /*font-family: 'Potta One', cursive;*/
+    height: auto;
+    width: 25%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box a:hover {
+    background-color: #b6ccb7;
+    color: #fff;
+    height: auto;
+    transition: .9s;
+}
+
+.content {
+    width: 100%;
+    height:200vh;
+    background-color:#B5CAA0;
+    
+}
+.content h1{
+    text-align:center;
+    color:#516E41;
+    padding-top:20px;
+}
+.content .introduce{
+	background-color:#91B493;
+	width:60%;
+	
+	margin:0 auto;
+	padding:10px;
+    text-align:left;
+    text-indent: 50px;
+	font-size:1.3rem;
+}
+.selectMenu{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding:20px;
+    text-align: center;
+}
+.selectMenu a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #516E41;
+    /*padding: 0 50px;*/
+    height: auto;
+    width: 15%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.selectMenu a:hover{
+    color: gray;
+    height: auto;
+    text-decoration: underline;
+    transition: .9s;
+}
+.catPic{
+	
+	background-color:red;
+	width:60%;
+	margin:0 auto;
+}
+.catPic img{
+	float:left;
+    margin:10px 20px 0 0;
+    width:400px;
+    height:400px;
+    border-radius: 5px;
+}
+.clearFix{
+	clear:both;
+}
+form{
+    text-align:center;
+    width: 50%;
+    margin:0 auto;
+	padding:10px;
+}
+table{
+    border:0px;
+    font-size:16px;
+    font-weight: bold; 
+    width:400px;
+    margin:0 auto;
+	padding:10px;
+    text-align:center;
+    border-collapse:separate;
+    /*border:2px solid #886600;
+    border-radius: 10px;
+    background-color: #FFEE99; */
+}
+table td{
+    color: #516E41;
+    width: 100px;
+    border:0px;
+    padding:5px;
+}
+table tr{
+    color:#516E41;
+    width: 100px;
+    border:0px;
+    padding:5px;
+}
+table.register{
+    border:0px;
+    font-size:16px;
+    font-weight: bold; 
+    width:400px;
+    margin:0 auto;
+	padding:10px;
+    text-align:center;
+    border-collapse:separate;
+    border-radius: 10px;
+}
+table.register td{
+    color: #516E41;
+    width: 100px;
+    border:0px;
+    padding:5px;
+}
+table.foodPic{ 
+    border:0px;
+    font-size:16px;
+    font-weight: bold; 
+    width: 100%;
+    margin:0 auto;
+	padding:10px;
+    text-align:center;
+    border-collapse:separate;
+    border:0px solid #516E41;
+    border-radius: 10px;
+} 
+table.foodPic img{
+    width: 100%;
+    border-radius: 10px;
+}
+table.foodPic td{
+    color: #516E41;
+    width: 100px;
+    border:0px;
+    padding:10px;
+  }
+table.payInfo{
+    border:0px;
+    font-size:23px;
+    font-weight: bold; 
+    width: 100%;
+    margin:0 auto;
+	padding:10px;
+    text-align:center;
+    border-collapse:separate;
+    border:0px solid #516E41;
+    border-radius: 10px;
+}
+input{
+    text-align:left;
+    border: 2px solid#516E41;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:750px)
+{
+ .wrap a{
+	font-size:22px;
+ }
+}
+h2.error{
+    text-align:center;
+    color:red;
+}
+.userInfo{
+    font-size: 0.7rem;
+    color: #666666;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+.userInfo a{
+    font-size: 1rem;
+    color: #516E41;	
+    padding: 5px;	
+    text-align: center;  
+    /*font-family: 'Potta One', cursive;*/
+    vertical-align:middle; 
+    text-decoration: none; 
+}
+.userInfo a:hover{
+    background-color:#91B493;
+    color: #fff;
+    height: auto;
+    border-radius: 5px;;
+    transition: .9s;
+}
+.content1{
+    font-size: 0.7rem;
+    color: #666666;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+.content1 a{
+    font-size: 1rem;
+    color:#516E41 ;	
+    padding: 5px;	
+    text-align: center;  
+    /*font-family: 'Potta One', cursive;*/
+    vertical-align:middle; 
+    text-decoration: none;
+}
+.content1 a.back{
+    font-size: 20px;
+    color:#516E41 ;	
+    padding: 5px;	
+    text-align: center;  
+    /*font-family: 'Potta One', cursive;*/
+    vertical-align:middle; 
+    text-decoration: none; 
+}
+.content1 a.back:hover{
+    background-color: style="font-weight:sticky;color:white;text-align:center;background-color:#91B493;width:40px;height:30px;";
+    color: #fff;
+    height: auto;
+    border-radius: 5px;;
+    transition: .9s;
+}
+.content2{
+    font-size: 0.7rem;
+    color: #666666;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 36px;
+    letter-spacing: 3px;
+}
+.content3{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;	
+}
+
+footer{
+    font-size: 0.5rem;
+    background-color:#91B493;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
